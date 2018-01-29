@@ -1,7 +1,7 @@
 {
   "name": "grunt-reg-viz",
   "description": "Compares pictures and shows their differences for visual regression test automation.",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "homepage": "https://github.com/prantlf/grunt-reg-viz",
   "author": {
     "name": "Ferdinand Prantl",
@@ -26,9 +26,12 @@
     "node": ">= 4"
   },
   "scripts": {
-    "test": "grunt && nsp check",
+    "postinstall": "nsp check",
+    "test": "grunt",
     "coverage": "grunt instrument && GRUNT_REG_VIZ_COVERAGE=1 grunt",
-    "coveralls": "test `node --version | cut -c 2` -eq 8 && npm run coverage && grunt coveralls"
+    "coveralls": "test `node --version | cut -c 2` -eq 8 && npm run coverage && grunt coveralls",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "grunt-contrib-clean": "^1.1.0",
@@ -40,7 +43,9 @@
     "grunt-coveralls": "^1.0.1",
     "grunt-istanbul": "^0.8.0",
     "grunt-standard": "^3.1.0",
-    "nsp": "^3.1.0"
+    "nsp": "^3.1.0",
+    "travis-deploy-once": "^4.3.3",
+    "semantic-release": "^12.4.1"
   },
   "peerDependencies": {
     "grunt": ">=0.4.5"
