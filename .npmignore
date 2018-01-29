@@ -1,0 +1,12 @@
+.git
+.gitignore
+.editorconfig
+.idea
+.npmignore
+.vscode
+Gruntfile.js
+coverage
+node_modules
+npm-debug.log
+tests/*/different
+tests/*/report.html
