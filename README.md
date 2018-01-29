@@ -38,7 +38,7 @@ Add the `reg-viz` entry with the task configuration to the options of the `grunt
 grunt.initConfig({
   'reg-viz': {
     all: {
-      expected: screenshots/expected',
+      expected: 'screenshots/expected',
       actual: 'screenshots/actual',
       different: 'screenshots/different',
       report: 'screenshots/report.html'
@@ -157,7 +157,7 @@ your code using Grunt.
 
 ## Release History
 
- * 2018-01-27  v0.0.1  Initial release
+ * 2018-01-27  [v0.0.1]  Initial release
 
 ## License
 
