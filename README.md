@@ -157,7 +157,7 @@ your code using Grunt.
 
 ## Release History
 
- * 2018-01-27  [v0.0.1]  Initial release
+ * 2018-01-29  [v0.0.1]  Initial release
 
 ## License
 

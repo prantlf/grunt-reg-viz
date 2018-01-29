@@ -1,7 +1,11 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "files.exclude": {
+    ".idea": true,
+    "coverage": true,
     "node_modules": true,
-    "npm-debug.log": true
+    "npm-debug.log": true,
+    "tests/*/different": true,
+    "tests/*/report.html: true"
   }
 }
