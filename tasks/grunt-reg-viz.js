@@ -65,7 +65,7 @@ module.exports = function (grunt) {
                             : grunt.log.ok
           grunt.verbose.writeln('Comparison finished.')
           ok(compared + ' ' + grunt.util.pluralize(compared,
-             'image/imagess') + ' compared, ' + matched + ' matched, ' +
+             'image/images') + ' compared, ' + matched + ' matched, ' +
              differed + ' differed, ' + removed + ' removed, ' + added +
              ' added.')
           done()
