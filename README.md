@@ -1,6 +1,11 @@
 # grunt-reg-viz
 
-[![NPM version](https://badge.fury.io/js/grunt-reg-viz.png)](http://badge.fury.io/js/grunt-reg-viz) [![Build Status](https://travis-ci.org/prantlf/grunt-reg-viz.svg?branch=master)](https://travis-ci.org/prantlf/grunt-reg-viz) [![Coverage Status](https://coveralls.io/repos/github/prantlf/grunt-reg-viz/badge.svg?branch=master)](https://coveralls.io/github/prantlf/grunt-reg-viz?branch=master) [![Dependency Status](https://david-dm.org/prantlf/grunt-reg-viz.svg)](https://david-dm.org/prantlf/grunt-reg-viz) [![devDependency Status](https://david-dm.org/prantlf/grunt-reg-viz/dev-status.svg)](https://david-dm.org/prantlf/grunt-reg-viz#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/prantlf/grunt-reg-viz.svg)](https://greenkeeper.io/) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) 
+[![NPM version](https://badge.fury.io/js/grunt-reg-viz.png)](http://badge.fury.io/js/grunt-reg-viz)
+[![Build Status](https://travis-ci.org/prantlf/grunt-reg-viz.svg?branch=master)](https://travis-ci.org/prantlf/grunt-reg-viz)
+[![Coverage Status](https://coveralls.io/repos/github/prantlf/grunt-reg-viz/badge.svg?branch=master)](https://coveralls.io/github/prantlf/grunt-reg-viz?branch=master)
+[![Dependency Status](https://david-dm.org/prantlf/grunt-reg-viz.svg)](https://david-dm.org/prantlf/grunt-reg-viz)
+[![devDependency Status](https://david-dm.org/prantlf/grunt-reg-viz/dev-status.svg)](https://david-dm.org/prantlf/grunt-reg-viz#info=devDependencies)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) 
 
 [![NPM Downloads](https://nodei.co/npm/grunt-reg-viz.png?downloads=true&stars=true)](https://www.npmjs.com/package/grunt-reg-viz)
 
