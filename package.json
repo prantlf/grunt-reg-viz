@@ -28,25 +28,21 @@
   "scripts": {
     "test": "grunt",
     "coverage": "grunt instrument && GRUNT_REG_VIZ_COVERAGE=1 grunt",
-    "coveralls": "test `node --version | cut -c 2` -eq 8 && npm run coverage && grunt coveralls",
-    "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "coveralls": "test `node --version | cut -c 2` -eq 8 && npm run coverage && grunt coveralls"
   },
   "dependencies": {
-    "reg-cli": "^0.13.0-beta.1"
+    "reg-cli": "^0.14.1"
   },
   "devDependencies": {
     "grunt": "^1.0.3",
-    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-nodeunit": "^2.0.0",
     "grunt-coveralls": "^2.0.0",
     "grunt-istanbul": "^0.8.0",
-    "grunt-standard": "^3.1.0",
-    "travis-deploy-once": "^5.0.7",
-    "semantic-release": "^15.9.14"
+    "grunt-standard": "^3.1.0"
   },
   "peerDependencies": {
-    "grunt": ">=0.4.5"
+    "grunt": ">=1.0.3"
   },
   "keywords": [
     "gruntplugin",
