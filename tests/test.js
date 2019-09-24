@@ -7,9 +7,9 @@ exports['htmllint-html-report-converter'] = {
   matching: function (test) {
     test.expect(2)
     const different = fs.existsSync(path.join(__dirname,
-              'matching/different/todos-1.png'))
+      'matching/different/todos-1.png'))
     const report = fs.existsSync(path.join(__dirname,
-              'matching/report.html'))
+      'matching/report.html'))
     test.ok(!different)
     test.ok(report)
     test.done()
@@ -18,9 +18,9 @@ exports['htmllint-html-report-converter'] = {
   differing: function (test) {
     test.expect(2)
     const different = fs.existsSync(path.join(__dirname,
-              'differing/different/todos-2.png'))
+      'differing/different/todos-2.png'))
     const report = fs.existsSync(path.join(__dirname,
-              'differing/report.html'))
+      'differing/report.html'))
     test.ok(different)
     test.ok(report)
     test.done()
